@@ -25,7 +25,7 @@ const Landing: React.FC = () => {
         <Button title="Large Full" styles={{ size: 'large', shape: 'rounded-Full' }} />
         <Button title="Large Large" styles={{ size: 'large', shape: 'rounded-lg' }} />
       </div>
-      <Button title="Get Started" styles={{ size: 'large', shape: 'rounded-Full', }} />
+      <Button title="Get Started" styles={{ size: 'small', shape: 'rounded-Full', }} />
       <Button title="Get Started" styles={{ size: 'medium', shape: 'rounded-lg', }} />
     </main>
   );
