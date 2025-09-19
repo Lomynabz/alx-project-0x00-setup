@@ -15,14 +15,18 @@ const Landing: React.FC = () => {
         <Button title="Small Rounded" styles={{ size: 'small', shape: 'rounded-sm' }} />
         <Button title="Small Medium" styles={{ size: 'small', shape: 'rounded-md' }} />
         <Button title="Small Full" styles={{ size: 'small', shape: 'rounded-Full' }} />
+        <Button title="Small Large" styles={{ size: 'small', shape: 'rounded-lg' }} />
         <Button title="Medium Rounded" styles={{ size: 'medium', shape: 'rounded-sm' }} />
         <Button title="Medium Medium" styles={{ size: 'medium', shape: 'rounded-md' }} />
         <Button title="Medium Full" styles={{ size: 'medium', shape: 'rounded-Full' }} />
+        <Button title="Medium Large" styles={{ size: 'medium', shape: 'rounded-lg' }} />
         <Button title="Large Rounded" styles={{ size: 'large', shape: 'rounded-sm' }} />
         <Button title="Large Medium" styles={{ size: 'large', shape: 'rounded-md' }} />
         <Button title="Large Full" styles={{ size: 'large', shape: 'rounded-Full' }} />
+        <Button title="Large Large" styles={{ size: 'large', shape: 'rounded-lg' }} />
       </div>
       <Button title="Get Started" styles={{ size: 'medium', shape: 'rounded-Full', }} />
+      <Button title="Get Started" styles={{ size: 'medium', shape: 'rounded-lg', }} />
     </main>
   );
 };
